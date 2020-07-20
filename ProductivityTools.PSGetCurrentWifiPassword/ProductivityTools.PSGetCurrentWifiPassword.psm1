@@ -1,6 +1,3 @@
-<#
-	My Function
-#>
-function Get-Function {
-
+function Get-CurrentWifiPassword {
+	$wifiNetwork=Get-NetConnectionProfile -InterfaceAlias wi-fi
 }
