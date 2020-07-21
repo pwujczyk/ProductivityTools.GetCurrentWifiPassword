@@ -11,48 +11,22 @@
 </p>
 
 
-# Get current wifi password
+# Get current wi-fi password
 
-Library allows to get description content from DescriptionAttribute.
+Module prints the current wi-fi password.
 <!--more-->
 
-Currently it retrieve value from following elements:
+To print current wi-fi password use ```Get-CurrentWifiPassword```.
 
-- Property
-
-- Field 
-
-- Method
-
-- Enum
-
-
-
-Usage example:
-```c#
-typeof(TestClass).GetPropertyDescription("PropertyName"); 
-typeof(TestClass).GetFieldDescription("FieldName"); 
-typeof(TestClass).GetMethodDescription("Method1"); 
-testClass.Enum.GetDescription();
+```powershell
+Get-CurrentWifiPassword
 ```
 
-all methods:
+If you also would like to see the name of the network connected, use ```verbose``` switch.
 
-- extension method **Description** for enum
-- extension method **Description** for Type
-- extension method **PropertyDescription** for Property
-- extension method **MethodDescription** for Method
-- extension method **FieldDescription** for Field
+```powershell
+Get-CurrentWifiPassword -Verbose
+```
 
 <!--og-image-->
-<img src="Images/GetDescription.png" />
-
-### Description is not existing
-
-Method will throw an exception if we will try to get value from item which doesn't have exception set up. You could use  DescriptionExists* methods to validate before using. Methods:
-
-- extension method **DescriptionExists** for enum
-- extension method **DescriptionExists** for Type
-- extension method **PropertyDescriptionExists** for Property
-- extension method **MethodDescriptionExists** for Method
-- extension method **FieldDescriptionExists** for Field
+<img src="Images/GetCurrentWiFiPassword.png" />
