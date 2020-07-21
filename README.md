@@ -16,7 +16,7 @@
 Module prints the current wi-fi password.
 <!--more-->
 
-To print current wi-fi password use ```Get-CurrentWifiPassword```.
+To print current wi-fi password use ```Get-CurrentWifiPassword``` cmdlet.
 
 ```powershell
 Get-CurrentWifiPassword
