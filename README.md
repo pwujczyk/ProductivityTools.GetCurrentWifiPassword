@@ -29,4 +29,4 @@ Get-CurrentWifiPassword -Verbose
 ```
 
 <!--og-image-->
-<img src="Images/GetCurrentWiFiPassword.png" />
+<img src="Images/GetCurrentWiFiPassword4.png" />
